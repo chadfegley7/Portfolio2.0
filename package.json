@@ -1,0 +1,21 @@
+{
+  "name": "portfolio2.0",
+  "version": "1.0.0",
+  "description": "Chad Fegley's Portfolio Remastered",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chad Fegley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "nodemailer": "^2.7.0",
+    "regex": "^0.1.1",
+    "requirejs": "^2.3.2",
+    "twilio": "^2.11.1"
+  }
+}

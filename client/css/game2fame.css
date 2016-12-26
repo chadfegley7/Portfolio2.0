@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+}
+#game2fameCollage{
+  margin-bottom: 100px;
+}
+.game2fameContainer{
+  margin-top: 50px;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+.jumbotron h1{
+  color: orange;
+}
+b{
+  color: orange
+}

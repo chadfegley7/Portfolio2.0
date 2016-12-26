@@ -1,0 +1,61 @@
+body{
+  background-color: black;
+}
+#shakequakeCollage{
+  height: 700px;
+  background-image: url('./pics_videos/shakequakeCollage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+.shakeQuakeContainer{
+  margin-top: 50px;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+.jumbotron h1{
+  color: orange;
+}
+b{
+  color: orange
+}
+
+.shake:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+#shakequakeCollage:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+#shakequakeJumbo:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(8px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}

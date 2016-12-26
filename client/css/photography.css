@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+}
+
+#flickrLogoGallery{
+  width: 40%;
+}
+#photoGallery{
+  font-size: 50px;
+  margin-top: 25px;
+  color: orange;
+}
+#picContainer{
+  margin-top: 25px;
+  margin-bottom: 100px;
+  color: orange;
+}
+#apiPics{
+  width: 80%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid orange;
+  border-radius: 20px;
+}
+#apiPics:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(0%);
+}
+
+#apiPics {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(100%);
+}

@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+}
+#reactweatherCollage{
+  height: 700px;
+  background-image: url('./pics_videos/reactweatherCollage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.reactWeatherContainer{
+  margin-top: 50px;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+.jumbotron h1{
+  color: orange;
+}
+b{
+  color: orange
+}

@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="./css/about.css">
+<script>
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+</script>
+<div class="container aboutContainer">
+  <div class="row">
+    <div class="container picture col-md-3 col-lg-3">
+    </div>
+    <div class="container aboutMe col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1">
+      <h1>Chad Fegley</h1>
+      <p>
+        <b>Full Stack Languages: </b>MEAN, Python, PHP<br />
+        <b>Other Familiar Techs: </b> React, RoR, C#, Unity 3D<br />
+        <b>School: </b>Coding Dojo<br />
+        <b>Hobbies: </b>Photography, Video Games<br /><br />
+      </p>
+      <p id="aboutSummary">
+        <b>About Me: </b><br /><br />
+        Hello, My name is Chad Fegley and thank you for visiting my portfolio. I'm a highly motivated developer that is looking to continue my learning everyday. The world of technology is amazing to me, the freedom and the power behind software development inspires me. My goal in everything that I build and everything that I learn is to create a project from scratch that will positively affect individuals around the globe. Technology is always adapting, and I want to show that I can adapt with it as well. That's what pushes me to continue my education in all different types of languages, because one day that language might be obsolete and I'll need to be able pick up a new language/technology.
+        I bring uplifting, positive energy to my work environment everyday, motivating and pushing my colleagues to grow with me. I enjoy helping others around me as it is exceptionally rewarding to teach someone and see them succeed. Through learning and collaborating with others, everyone benefits and grows as individuals and as developers.
+      </p>
+    </div>
+  </div>
+  <div class="modal" id="videoModal">
+    <div class="modal-content">
+      <video muted poster="" width="100%" autoplay="true" id="video" loop>
+        <source src="./css/pics_videos/GameVideo.mp4" type="video/mp4"/>
+      </video>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var modal = document.getElementById('videoModal');
+
+  $(document).ready(function(){
+    setTimeout(function(){
+      modal.style.display = "block";
+    }, 1000);
+  })
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>

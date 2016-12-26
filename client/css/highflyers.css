@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+}
+#highflyersCollage{
+  height: 500px;
+  background-image: url('./pics_videos/highflyersCollage.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.highFlyersContainer{
+  margin-top: 50px;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+.jumbotron h1{
+  color: orange;
+}
+b{
+  color: orange
+}

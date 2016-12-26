@@ -1,0 +1,28 @@
+{
+  "name": "portfolio2.0",
+  "description": "Chad Fegley's Portfolio Remastered",
+  "main": "server.js",
+  "authors": [
+    "Chad Fegley"
+  ],
+  "license": "ISC",
+  "homepage": "localhost:8000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-moment": "^1.0.1",
+    "angular-route": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.1",
+    "angular-ui-router": "^0.3.2",
+    "ng-image-gallery": "^2.0.8",
+    "jquery-ui": "^1.12.1"
+  }
+}
