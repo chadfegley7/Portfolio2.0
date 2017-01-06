@@ -33,6 +33,8 @@ body{
 .socialMedia{
   height: 75px;
   width: 75px;
+  position: relative;
+  left: 20px;
 }
 #git{
   background-color: orange;
