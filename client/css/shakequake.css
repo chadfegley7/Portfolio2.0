@@ -2,9 +2,10 @@ body{
   background-color: black;
 }
 #shakequakeCollage{
-  height: 700px;
+  height: 950px;
   background-image: url('./pics_videos/shakequakeCollage.png');
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 100px;
   border-radius: 20px;

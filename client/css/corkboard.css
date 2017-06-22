@@ -2,9 +2,10 @@ body{
   background-color: black;
 }
 #corkboardCollage{
-  height: 500px;
+  height: 800px;
   background-image: url('./pics_videos/corkboard.png');
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 100px;
   border-radius: 20px;

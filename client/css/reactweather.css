@@ -2,12 +2,11 @@ body{
   background-color: black;
 }
 #reactweatherCollage{
-  height: 700px;
+  height: 1000px;
   background-image: url('./pics_videos/reactweatherCollage.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 100px;
-  border-radius: 10px;
 }
 .reactWeatherContainer{
   margin-top: 50px;

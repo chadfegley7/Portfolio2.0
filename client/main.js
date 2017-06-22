@@ -48,6 +48,11 @@ App.config(function($stateProvider, $urlRouterProvider, $qProvider){
       templateUrl: '/partials/_reactweather.html'
     })
 
+    .state('flappy',{
+      url: '/flappy',
+      templateUrl: '/partials/_flappy.html'
+    })
+
     .state('photography',{
       url: '/photography',
       templateUrl: '/partials/_photography.html',
