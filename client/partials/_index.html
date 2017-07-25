@@ -1,30 +1,510 @@
 <link rel="stylesheet" href="./css/index.css">
-<div class="container">
-  <p id="welcome">Chad Fegley's Portfolio</p>
-</div>
-<div class="container" id="test">
-  <div class="row">
-    <div class="container">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+
+<!-- <link rel="stylesheet" href="./css/pics_videos/timeline.scss"> -->
+
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="introContainer">
+
+  <p id="welcome">Chad Fegley</p>
+
+    <div class="container" id="pic">
+
       <center><img src="./css/pics_videos/chad.jpg" class="img-circle" id="profilePic"/></center>
+
     </div>
-  </div>
-</div>
-<div class="container">
-  <div class="container col-xs-9 col-md-5 col-lg-5 col-xs-offset-3 col-md-offset-4 col-lg-offset-4"id="socialIcons">
-    <a href="https://www.linkedin.com/in/chadfegley7"><img src="./css/pics_videos/linkedin.png" alt="" id="linkedin" class="socialMedia" /></a>
-    <a href="https://www.github.com/chadfegley7"><img src="./css/pics_videos/github.png" alt="" id="git" class="socialMedia" /></a>
-    <a href="https://twitter.com/FegleyChad"><img src="./css/pics_videos/twitter.png" alt="" id="twitter" class="socialMedia" /></a>
-    <a href="https://www.flickr.com/photos/134646885@N03/"><img src="./css/pics_videos/flickr.png" alt="" id="flickr" class="socialMedia" /></a>
+
+  <div class="container">
+
+    <h1 id="introduce">Let Me Introduce Myself</h1>
+
+    <div class="container col-md-5 col-lg-5" id="qualifications">
+
+      <p>
+
+        <b>Full Stack Languages: </b>MEAN, Python, PHP<br /><br />
+
+        <b>Other Familiar Techs: </b> iOS, Xcode, SpriteKit, Swift, React, RoR, C#, Unity 3D<br /><br />
+
+        <b>School: </b>Coding Dojo, Cabrillo College<br /><br />
+
+        <b>Hobbies: </b>Photography, Video Games, Game Development<br />
+
+      </p>
+
+      <div class="container col-xs-12 col-md-12 col-lg-12"id="socialIcons">
+
+        <div class="row col-xs-12 col-md-12 col-lg-12">
+
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+            <a href="https://www.linkedin.com/in/chadfegley7"><img src="./css/pics_videos/linkedin.png" alt="" id="linkedin" class="socialMedia" /></a>
+
+          </div>
+
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+            <a href="https://www.github.com/chadfegley7"><img src="./css/pics_videos/github.png" alt="" id="git" class="socialMedia" /></a>
+
+          </div>
+
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+            <a href="https://twitter.com/FegleyChad"><img src="./css/pics_videos/twitter.png" alt="" id="twitter" class="socialMedia" /></a>
+
+          </div>
+
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+            <a href="https://www.flickr.com/photos/134646885@N03/"><img src="./css/pics_videos/flickr.png" alt="" id="flickr" class="socialMedia" /></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container col-md-6 col-lg-6 col-md-offset-1" id="aboutMe">
+
+      <p>
+        Hello, My name is Chad Fegley and thank you for visiting my portfolio. I'm a highly motivated developer that is looking to continue my learning everyday. The world of technology is amazing to me, the freedom and the power behind software development inspires me. My goal in everything that I build and everything that I learn is to create a project from scratch that will positively affect individuals around the globe. Technology is always adapting, and I want to show that I can adapt with it as well. That's what pushes me to continue my education in all different types of languages, because one day that language might be obsolete and I'll need to be able pick up a new language/technology.
+        I bring uplifting, positive energy to my work environment everyday, motivating and pushing my colleagues to grow with me. I enjoy helping others around me as it is exceptionally rewarding to teach someone and see them succeed. Through learning and collaborating with others, everyone benefits and grows as individuals and as developers.
+      </p>
+
+    </div>
 
   </div>
+
 </div>
+
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="projectsContainer">
+
+  <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="projectHolder">
+
+    <div class="row projectRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+
+      <a href="http://chadfegley.com/#!/highflyers">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="theHighFlyersProject">
+
+        </div>
+
+      </a>
+
+      <a href="http://chadfegley.com/#!/game2fame">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="gameToFameProject">
+
+        </div>
+
+      </a>
+
+      <a href="http://chadfegley.com/#!/corkboard">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="corkboardProject">
+
+        </div>
+
+      </a>
+
+    </div>
+
+    <div class="row projectNameRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="theHighFlyersLabel">
+
+        <h4>The HighFlyers Club</h4>
+
+      </div>
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="gameToFameLabel">
+
+        <h4>Game2Fame</h4>
+
+      </div>
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="corkboardLabel">
+
+        <h4>Corkboard</h4>
+
+      </div>
+
+    </div>
+
+    <div class="row projectNameRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+
+      <a href="http://chadfegley.com/#!/shakequake">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="shakeQuakeProject">
+
+        </div>
+
+      </a>
+
+      <a href="http://chadfegley.com/#!/flappy">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="flappyProject">
+
+        </div>
+
+      </a>
+
+      <a href="http://chadfegley.com/#!/expozure">
+
+        <div class="container project col-xs-3 col-sm-3 col-md-4 col-lg-3" id="expozureProject">
+
+        </div>
+
+      </a>
+
+    </div>
+
+    <div class="row projectNameRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="shakeQuakeLabel">
+
+          <h4>ShakeQuake</h4>
+
+      </div>
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="flappyLabel">
+
+        <h4>Flappy</h4>
+
+      </div>
+
+      <div class="container projectLabel col-xs-3 col-sm-3 col-md-3 col-lg-3" id="expozureLabel">
+
+        <h4>Expozure</h4>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ************************Timeline container****************************** -->
+
+
+
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="timelineContainer">
+
+  <center><h1 id="journey">"The Journey" Timeline</h1></center>
+
+  <div class="container timeline" id="timelineHolder">
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6" id="timelineItem1">
+
+        <h2>Cabrillo College - Santa Cruz</h2>
+
+        <div class="date">AUGUST 2012 - AUGUST 2014</div><br />
+
+        <p>Started attending school here to start my path towards becoming a teacher. Majoring in History at the time while trying to achieve a minor in Astronomy. Towards the end of my time at Cabrillo I started to realize that I don't have a burning desire for these studies and that I needed to be switch my path towards a subject more enticing to me.</p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight col-xs-5 col-sm-5 col-md-5 col-lg-5" id="timelineItem2">
+
+        <div class="timeline-img-header">
+
+          <h2>Moved to San Francisco</h2>
+
+        </div>
+
+        <div class="date">AUGUST 2014</div><br />
+
+        <p>Decided to move to "The City" thinking that it would help me in my pursuit of finding my new educational path. I started working at Roy's, an upscale Hawaiian restaurant, located in the Financial District and became a bartender. Meeting the wide variety of business/tech people, I knew I was in the right place. </p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6" id="timelineItem3">
+
+        <h2>Found Passion For Coding</h2>
+
+        <div class="date">SEPTEMBER 2014</div><br />
+
+        <p>Took my first class towards a CS degree at SFCC, C#. My mind had been opened up to the tech world in a way I thought I never would have seen. I started attending coding Meet-Up's to learn from people in the business, taking in a plethora of new concepts. I had finally found what I had been looking for, my love for coding.</p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight col-xs-5 col-sm-5 col-md-5 col-lg-5" id="timelineItem4">
+
+        <h2>Moved to San Jose</h2>
+
+        <div class="date">AUGUST 2015</div><br />
+
+        <p>I moved to San Jose because my girlfriend was about to begin nursing school in Santa Cruz. I started looking for schools around San Jose to continue my CS Degree, that's when I found the place that would change the game for me, Coding Dojo.</p>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInLeft col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6" id="timelineItem5">
+
+        <div class="timeline-img-header">
+
+          <h2>Coding Dojo</h2>
+
+        </div>
+
+        <div class="date">JANUARY 2016 - APRIL 2016</div><br />
+
+        <p>Here I learned to be a Full-Stack Web Developer in 3 languages: MEAN, Python, and PHP. In 4 months I acquired the skills and knowledge to create professional web apps. I created my 1st VR game here in Unity 3D and C#. As my final project for graduation I created a video game betting website using bitcoin in MEAN.</p>
+
+        <a class="bnt-more" href="http://www.codingdojo.com/">Learn More</a>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight col-xs-5 col-sm-5 col-md-5 col-lg-5" id="timelineItem6">
+
+        <div class="timeline-img-header">
+
+          <h2>Tech Crunch Hackathon Winner</h2>
+
+        </div>
+
+        <div class="date">SEPTEMBER 2016</div><br />
+
+        <p>A couple of classmates from Coding Dojo and myself decided to test our skills against over 1,000+ of the best developers around the Bay Area at the Disrupt SF Tech Crunch Hackathon. We created an in-flight communication app with IBM Watson serving as your tour guide, in 24 hrs.
+        Our app was a winner chosen by Domain.com </p>
+
+        <a class="bnt-more" href="https://techcrunch.com/2016/09/11/thehighflyers-helps-you-join-the-mile-high-chat-club/">Read Article</a> | <a class="bnt-more" href="https://github.com/eli-byers/techcrunch-2016">Github</a>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6" id="timelineItem7">
+
+        <h2>Hack Homelessness 2nd Place</h2>
+
+        <div class="date">OCTOBER 2016</div><br />
+
+        <p>Coming off our big win at the Tech Crunch Hackathon, we decided to attend a hackathon that would help benefit people in the most need, the homeless. We created a web-based app called "Corkboard" that served as a virtual corkboard that would help the homeless post messages to reach out to their loved ones, in 24 hours. Came in 2nd place. </p>
+
+        <a class="bnt-more" href="http://chadfegley.com/#!/corkboard">Learn More</a> | <a class="bnt-more" href="https://github.com/brendan-codes/corkboard">Github</a>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content timeline-card js--fadeInRight col-xs-5 col-sm-5 col-md-5 col-lg-5" id="timelineItem8">
+
+        <div class="timeline-img-header">
+
+          <h2>1st Game Developed: Flappy</h2>
+
+        </div>
+
+        <div class="date">MAY 2017</div><br />
+
+        <p>I have always had a passion for gaming and I wanted to broaden my skills towards mobile development. So on my free time I started teaching myself iOS development with Xcode and Swift. Building on top of my knowledge and skills, I was able to re-create the viral game, Flappy Bird. </p>
+
+        <a class="bnt-more" href="http://chadfegley.com/#!/flappy">Learn More</a> | <a class="bnt-more" href="https://github.com/chadfegley7/iOSFlappyBird">Github</a>
+
+      </div>
+
+    </div>
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6" id="timelineItem9">
+
+        <h2>1st App Developed: Expozure</h2>
+
+        <div class="date">AUGUST 2017</div><br />
+
+        <p>I had created a mobile game for the 1st time, I figured it was time to teach myself mobile app development. So I started teaching myself the full-stack side of development with Firebase and eventually built my 1st mobile app, a social media app for users to share pictures and videos, Expozure.</p>
+
+        <a class="bnt-more" href="http://chadfegley.com/#!/expozure">Learn More</a> | <a class="bnt-more" href="https://github.com/chadfegley7/TopPic">Github</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- **********************End of Timeline Container************************* -->
+
+
+
+
+
+
+
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="messageForm">
+
+  <center>
+
+    <h1>Want to Chat?!<br />Leave Your Contact Info Here!</h1>
+
+  </center>
+
+  <form>
+
+    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+      <label for="visitorEmail">Your Name</label>
+
+      <input type="text" class="form-control" id="name" placeholder="Your Name" ng-model="newMessage.name" >
+
+    </div>
+
+    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+      <label for="email">Your Email</label>
+
+      <input type="text" class="form-control" id="email" placeholder="Your Email Here" ng-model="newMessage.email">
+
+    </div><br />
+
+    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+      <label for="comment">Message:</label>
+
+      <textarea class="form-control" rows="5" ng-model="newMessage.message" id="comment"></textarea><br />
+
+      <button type="submit" class="btn btn-primary center-block" id="postMessageButt" ng-click="createMessage()">Send Message</button>
+
+    </div>
+
+  </form>
+
+</div>
+
+
 <script type="text/javascript">
+
 $(document).ready(function() {
+
   $(window).keydown(function(event){
+
     if(event.keyCode == 13) {
+
       event.preventDefault();
+
       return false;
+
     }
+
   });
+
+  $("form").submit(function(){
+
+    setTimeout(function(){
+
+      alert("Thank You! Your message has been sent!");
+
+    }, 500);
+
+  });
+
+  $(function(){
+
+    window.sr = ScrollReveal();
+
+    if ($(window).width() < 768) {
+
+    	if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+    		$('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+    	}
+
+    	sr.reveal('.js--fadeInRight', {
+  	    origin: 'right',
+  	    distance: '300px',
+  	    easing: 'ease-in-out',
+  	    duration: 800,
+  	  });
+
+    } else {
+
+    	sr.reveal('.js--fadeInLeft', {
+  	    origin: 'left',
+  	    distance: '300px',
+  		  easing: 'ease-in-out',
+  	    duration: 800,
+  	  });
+
+  	  sr.reveal('.js--fadeInRight', {
+  	    origin: 'right',
+  	    distance: '300px',
+  	    easing: 'ease-in-out',
+  	    duration: 800,
+  	  });
+
+    }
+
+    sr.reveal('.js--fadeInLeft', {
+  	    origin: 'left',
+  	    distance: '300px',
+  		  easing: 'ease-in-out',
+  	    duration: 800,
+  	  });
+
+  	  sr.reveal('.js--fadeInRight', {
+  	    origin: 'right',
+  	    distance: '300px',
+  	    easing: 'ease-in-out',
+  	    duration: 800,
+  	  });
+
+
+  });
+
 });
+
+
 </script>

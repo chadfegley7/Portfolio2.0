@@ -1,59 +1,30 @@
 body{
-  background-color: black;
+  background-color: #1A237E;
 }
 
 #gameTitle{
   color: orange;
 }
 
+.flappyContainer{
+  margin-top: 50px;
+}
+
 .jumbotron{
-  background-color: black;
-  color: white;
+  background-color: #5C6BC0;
+  color: #BBDEFB;
+  font-family: 'Exo', sans-serif;
+  box-shadow: 10px 10px 5px #BBDEFB;
 }
 b{
   color: orange;
 }
 
 #flappyPicContainer{
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
-#flappyPicOne{
-  border: 3px solid white;
-  height: 500px;
-  background-image: url('./pics_videos/FlappyMainMenu.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 50px;
-  margin-right: 40px;
-  margin-top: 25px;
+#backArrow{
   margin-bottom: 50px;
-  border-radius: 10px;
-}
-
-#flappyPicTwo{
-  border: 3px solid white;
-  height: 500px;
-  background-image: url('./pics_videos/FlappyGameStart.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 50px;
-  margin-right: 40px;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  border-radius: 10px;
-}
-
-#flappyPicThree{
-  border: 3px solid white;
-  height: 500px;
-  background-image: url('./pics_videos/FlappyMidGame.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 50px;
-  margin-right: 40px;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  border-radius: 10px;
 }

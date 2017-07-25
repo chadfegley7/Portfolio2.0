@@ -1,21 +1,17 @@
 body{
-  background-color: black;
+  background-color: #1A237E;
 }
 #shakequakeCollage{
-  height: 950px;
-  background-image: url('./pics_videos/shakequakeCollage.png');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 100px;
-  border-radius: 20px;
+  margin-top: 50px;
 }
 .shakeQuakeContainer{
   margin-top: 50px;
 }
 .jumbotron{
-  background-color: black;
-  color: white;
+  background-color: #5C6BC0;
+  color: #BBDEFB;
+  font-family: 'Exo', sans-serif;
+  box-shadow: 10px 10px 5px #BBDEFB;
 }
 .jumbotron h1{
   color: orange;

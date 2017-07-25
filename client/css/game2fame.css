@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: #1A237E;
 }
 #game2fameCollage{
   margin-bottom: 100px;
@@ -8,12 +8,21 @@ body{
   margin-top: 50px;
 }
 .jumbotron{
-  background-color: black;
-  color: white;
+  background-color: #5C6BC0;
+  color: #BBDEFB;
+  font-family: 'Exo', sans-serif;
+  box-shadow: 10px 10px 5px #BBDEFB;
 }
 .jumbotron h1{
   color: orange;
 }
 b{
   color: orange
+}
+#video{
+  border-radius: 10px;
+  border: 2px solid #5C6BC0;
+}
+#backArrow{
+  margin-top: 25px;
 }

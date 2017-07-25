@@ -10,7 +10,8 @@ App.config(function($stateProvider, $urlRouterProvider, $qProvider){
 
     .state('index',{
       url: '/',
-      templateUrl: '/partials/_index.html'
+      templateUrl: '/partials/_index.html',
+      controller: 'messageCtrl'
     })
 
     .state('about',{
@@ -28,9 +29,9 @@ App.config(function($stateProvider, $urlRouterProvider, $qProvider){
       templateUrl: '/partials/_corkboard.html'
     })
 
-    .state('homie',{
-      url: '/homie',
-      templateUrl: '/partials/_homie.html'
+    .state('expozure',{
+      url: '/expozure',
+      templateUrl: '/partials/_expozure.html'
     })
 
     .state('game2fame',{
