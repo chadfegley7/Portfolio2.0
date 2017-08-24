@@ -14,59 +14,6 @@ App.config(function($stateProvider, $urlRouterProvider, $qProvider){
       controller: 'messageCtrl'
     })
 
-    .state('about',{
-      url: '/about',
-      templateUrl: '/partials/_about.html'
-    })
-
-    .state('highflyers',{
-      url: '/highflyers',
-      templateUrl: '/partials/_highflyers.html'
-    })
-
-    .state('corkboard',{
-      url: '/corkboard',
-      templateUrl: '/partials/_corkboard.html'
-    })
-
-    .state('expozure',{
-      url: '/expozure',
-      templateUrl: '/partials/_expozure.html'
-    })
-
-    .state('game2fame',{
-      url: '/game2fame',
-      templateUrl: '/partials/_game2fame.html'
-    })
-
-    .state('shakequake',{
-      url: '/shakequake',
-      templateUrl: '/partials/_shakequake.html'
-    })
-
-    .state('reactweather',{
-      url: '/reactweather',
-      templateUrl: '/partials/_reactweather.html'
-    })
-
-    .state('flappy',{
-      url: '/flappy',
-      templateUrl: '/partials/_flappy.html'
-    })
-
-    .state('photography',{
-      url: '/photography',
-      templateUrl: '/partials/_photography.html',
-      controller: 'imageCtrl',
-
-    })
-
-    .state('contact',{
-      url: '/contact',
-      templateUrl: '/partials/_contact.html',
-      controller: 'messageCtrl'
-    })
-
     .state('secret',{
       url: '/secret',
       templateUrl: '/partials/_secret.html',

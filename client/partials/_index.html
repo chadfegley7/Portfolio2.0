@@ -1,116 +1,166 @@
 <link rel="stylesheet" href="./css/index.css">
 
+<link rel="stylesheet" type="text/scss" href="./css/index.scss">
+
+<link href="https://fonts.googleapis.com/css?family=Bangers|Courgette" rel="stylesheet">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 
 
 <!-- <link rel="stylesheet" href="./css/pics_videos/timeline.scss"> -->
+<!--
+<div class="w3-top">
+    
+  <ul class="w3-navbar" id="myNavbar">
+      
+    <li><a href="#" class="w3-padding-large">Chad Fegley</a></li>
+      
+    <li class="w3-hide-small w3-right">
+        
+      <a href="#contact" class="w3-padding-large">Contact</a>
+        
+    </li>
+      
+    <li class="w3-hide-small w3-right">
+        
+      <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+        
+    </li>
+      
+    <li class="w3-hide-small w3-right">
+        
+      <a href="#about" class="w3-padding-large">About</a>
+        
+    </li>
+      
+  </ul>
+    
+</div>
+-->
 
-<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="introContainer">
 
-  <p id="welcome">Chad Fegley</p>
+<div class="preload">
 
-    <div class="container" id="pic">
+    <div id="progressbar">
+  <span id="loading"></span>
+  <div id="load"><p>Chad Fegley's Portfolio</p></div>
+</div>
+    
+</div>
 
-      <center><img src="./css/pics_videos/chad.jpg" class="img-circle" id="profilePic"/></center>
+<script>
+    
+    $(function() {
+       
+        $(".preload").fadeOut(10000, function() {
+            
+            $("#testContainer").fadeIn(1500);
+            
+            $("#testContainer2").fadeIn(1500);
+            
+            $("#testContainer3").fadeIn(1500);
+            
+            $("#projectsContainer").fadeIn(1500);
+            
+            $("#timelineContainer").fadeIn(1500);
+            
+            $("#messageForm").fadeIn(1500);
+            
+        })
+        
+    });
+</script>
 
-    </div>
 
-  <div class="container">
 
-    <h1 id="introduce">Let Me Introduce Myself</h1>
 
-    <div class="container col-md-5 col-lg-5" id="qualifications">
 
-      <p>
 
-        <b>Full Stack Languages: </b>MEAN, Python, PHP<br /><br />
 
-        <b>Other Familiar Techs: </b> iOS, Xcode, SpriteKit, Swift, React, RoR, C#, Unity 3D<br /><br />
 
-        <b>School: </b>Coding Dojo, Cabrillo College<br /><br />
 
-        <b>Hobbies: </b>Photography, Video Games, Game Development<br />
 
-      </p>
 
-      <div class="container col-xs-12 col-md-12 col-lg-12"id="socialIcons">
-
-        <div class="row col-xs-12 col-md-12 col-lg-12">
-
-          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-            <a href="https://www.linkedin.com/in/chadfegley7"><img src="./css/pics_videos/linkedin.png" alt="" id="linkedin" class="socialMedia" /></a>
-
-          </div>
-
-          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-            <a href="https://www.github.com/chadfegley7"><img src="./css/pics_videos/github.png" alt="" id="git" class="socialMedia" /></a>
-
-          </div>
-
-          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-            <a href="https://twitter.com/FegleyChad"><img src="./css/pics_videos/twitter.png" alt="" id="twitter" class="socialMedia" /></a>
-
-          </div>
-
-          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-            <a href="https://www.flickr.com/photos/134646885@N03/"><img src="./css/pics_videos/flickr.png" alt="" id="flickr" class="socialMedia" /></a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="container col-md-6 col-lg-6 col-md-offset-1" id="aboutMe">
-
-      <p>
-        Hello, My name is Chad Fegley and thank you for visiting my portfolio. I'm a highly motivated developer that is looking to continue my learning everyday. The world of technology is amazing to me, the freedom and the power behind software development inspires me. My goal in everything that I build and everything that I learn is to create a project from scratch that will positively affect individuals around the globe. Technology is always adapting, and I want to show that I can adapt with it as well. That's what pushes me to continue my education in all different types of languages, because one day that language might be obsolete and I'll need to be able pick up a new language/technology.
-        I bring uplifting, positive energy to my work environment everyday, motivating and pushing my colleagues to grow with me. I enjoy helping others around me as it is exceptionally rewarding to teach someone and see them succeed. Through learning and collaborating with others, everyone benefits and grows as individuals and as developers.
-      </p>
-
-    </div>
-
+<div class="container bgimg-1 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="testContainer">
+    
+  <div class="container col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-4 col-sm-offset-4 col-md-offfset-4 col-lg-offset-4" id="name">
+      
+    <h1>CHAD <span>FEGLEY</span></h1>
+      
   </div>
+    
+</div>
 
+<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="testContainer2">
+    
+  <h2 id="aboutMeHeader">ABOUT ME</h2>
+    
+  <p class="quote"><em>"If it doesn't challenge you, it won't change you."</em></p>
+    
+  <p class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" id="aboutMeSnip">I'm a highly motivated developer that is looking to continue my learning everyday. The world of technology is amazing to me, the freedom and the power behind software development inspires me. My goal in everything that I learn is to incorporate it into a project from  that will positively affect individuals around the world. </p>
+    
+  <!--  Profile Picture and Description  -->
+  <div class="row">
+      
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+        
+      <img src="./css/pics_videos/chadBW.jpg" id="profile" class="img-circle col-xs-9 col-sm-9 col-md-9 col-lg-9" alt="Photo of Me">
+        
+    </div>
+      
+  </div>
+    
+</div>
+
+
+
+
+<div class="container bgimg-2 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="testContainer3">
+    
+  <div class="container col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4" id="Portfolio">
+      
+    <span>PORTFOLIO</span>
+      
+  </div>
+    
 </div>
 
 <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="projectsContainer">
 
   <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="projectHolder">
+    
+      <p><em>Here are some of the projects I've created. Click on them to learn more.</em></p>
 
     <div class="row projectRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
-      <a href="http://chadfegley.com/#!/highflyers">
+<!--      <a href="http://chadfegley.com/#!/highflyers">-->
 
-        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="theHighFlyersProject">
-
-        </div>
-
-      </a>
-
-      <a href="http://chadfegley.com/#!/game2fame">
-
-        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="gameToFameProject">
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" data-toggle="modal" data-target="#highFlyersModal" id="theHighFlyersProject">
 
         </div>
 
-      </a>
+<!--      </a>-->
 
-      <a href="http://chadfegley.com/#!/corkboard">
+<!--      <a href="http://chadfegley.com/#!/game2fame">-->
 
-        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="corkboardProject">
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" data-toggle="modal" data-target="#game2FameModal" id="gameToFameProject">
 
         </div>
 
-      </a>
+<!--      </a>-->
+
+<!--      <a href="http://chadfegley.com/#!/corkboard">-->
+
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" data-toggle="modal" data-target="#corkboardModal" id="corkboardProject">
+
+        </div>
+
+<!--      </a>-->
 
     </div>
+      
+      
+      
 
     <div class="row projectNameRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
@@ -136,29 +186,29 @@
 
     <div class="row projectNameRow col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
 
-      <a href="http://chadfegley.com/#!/shakequake">
+<!--      <a href="http://chadfegley.com/#!/shakequake">-->
 
-        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="shakeQuakeProject">
-
-        </div>
-
-      </a>
-
-      <a href="http://chadfegley.com/#!/flappy">
-
-        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" id="flappyProject">
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" data-toggle="modal" data-target="#shakeQuakeModal" id="shakeQuakeProject">
 
         </div>
 
-      </a>
+<!--      </a>-->
 
-      <a href="http://chadfegley.com/#!/expozure">
+<!--      <a href="http://chadfegley.com/#!/flappy">-->
 
-        <div class="container project col-xs-3 col-sm-3 col-md-4 col-lg-3" id="expozureProject">
+        <div class="container project col-xs-3 col-sm-3 col-md-3 col-lg-3" data-toggle="modal" data-target="#flappyModal" id="flappyProject">
 
         </div>
 
-      </a>
+<!--      </a>-->
+
+<!--      <a href="http://chadfegley.com/#!/expozure">-->
+
+        <div class="container project col-xs-3 col-sm-3 col-md-4 col-lg-3" data-toggle="modal" data-target="#expozureModal" id="expozureProject">
+
+        </div>
+
+<!--      </a>-->
 
     </div>
 
@@ -193,7 +243,7 @@
 
 
 
-<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="timelineContainer">
+<div class="container bgimg-3 col-xs-12 col-sm-12 col-md-12 col-lg-12" id="timelineContainer">
 
   <center><h1 id="journey">"The Journey" Timeline</h1></center>
 
@@ -209,7 +259,7 @@
 
         <div class="date">AUGUST 2012 - AUGUST 2014</div><br />
 
-        <p>Started attending school here to start my path towards becoming a teacher. Majoring in History at the time while trying to achieve a minor in Astronomy. Towards the end of my time at Cabrillo I started to realize that I don't have a burning desire for these studies and that I needed to be switch my path towards a subject more enticing to me.</p>
+        <p>Started attending school here to start my path towards becoming a teacher. Majoring in History at the time while trying to achieve a minor in Astronomy. Towards the end of my time at Cabrillo I started to realize that I don't have a burning desire for these studies and that I needed to switch my path towards a subject more enticing to me.</p>
 
       </div>
 
@@ -261,7 +311,7 @@
 
         <div class="date">AUGUST 2015</div><br />
 
-        <p>I moved to San Jose because my girlfriend was about to begin nursing school in Santa Cruz. I started looking for schools around San Jose to continue my CS Degree, that's when I found the place that would change the game for me, Coding Dojo.</p>
+        <p>I moved to San Jose and started looking for schools around San Jose to continue my CS Degree, that's when I found the place that would change the game for me, Coding Dojo.</p>
 
       </div>
 
@@ -386,49 +436,345 @@
 
 
 <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="messageForm">
+    
+      <div class="container col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1"id="socialIcons">
 
-  <center>
+        <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-    <h1>Want to Chat?!<br />Leave Your Contact Info Here!</h1>
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
 
-  </center>
+            <a href="https://www.linkedin.com/in/chadfegley7"><img src="./css/pics_videos/linkedin.png" alt="" id="linkedin" class="socialMedia" /></a>
 
-  <form>
+          </div>
 
-    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
 
-      <label for="visitorEmail">Your Name</label>
+            <a href="https://www.github.com/chadfegley7"><img src="./css/pics_videos/github.png" alt="" id="git" class="socialMedia" /></a>
 
-      <input type="text" class="form-control" id="name" placeholder="Your Name" ng-model="newMessage.name" >
+          </div>
 
-    </div>
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
 
-    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+            <a href="https://twitter.com/FegleyChad"><img src="./css/pics_videos/twitter.png" alt="" id="twitter" class="socialMedia" /></a>
 
-      <label for="email">Your Email</label>
+          </div>
 
-      <input type="text" class="form-control" id="email" placeholder="Your Email Here" ng-model="newMessage.email">
+          <div class="container col-xs-3 col-sm-3 col-md-3 col-lg-3">
 
-    </div><br />
+            <a href="https://www.flickr.com/photos/134646885@N03/"><img src="./css/pics_videos/flickr.png" alt="" id="flickr" class="socialMedia" /></a>
 
-    <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+          </div>
 
-      <label for="comment">Message:</label>
+        </div>
 
-      <textarea class="form-control" rows="5" ng-model="newMessage.message" id="comment"></textarea><br />
+      </div>
+    
+      <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="formContainer">
+    
+        <center>
 
-      <button type="submit" class="btn btn-primary center-block" id="postMessageButt" ng-click="createMessage()">Send Message</button>
+            <h1>Want to Chat?!<br />Leave Your Contact Info Here!</h1>
 
-    </div>
+        </center>
 
-  </form>
+      <form>
+
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+          <label for="visitorEmail">Your Name</label>
+
+          <input type="text" class="form-control" id="name2" placeholder="Your Name" ng-model="newMessage.name" >
+
+        </div>
+
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+          <label for="email">Your Email</label>
+
+          <input type="text" class="form-control" id="email" placeholder="Your Email Here" ng-model="newMessage.email">
+
+        </div><br />
+
+        <div class="form-group col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+
+          <label for="comment">Message:</label>
+
+          <textarea class="form-control" rows="5" ng-model="newMessage.message" id="comment"></textarea><br />
+
+          <button type="submit" class="btn btn-primary center-block" id="postMessageButt" ng-click="createMessage()">Send Message</button>
+
+        </div>
+
+      </form>
+
+    
+      </div>
+
+
+  
 
 </div>
 
 
-<script type="text/javascript">
+<!-- ****************************** Beginning of Modals ************************************** -->
 
+
+
+<div class="modal fade" id="highFlyersModal" tabindex="-1" role="dialog" aria-labelledby="highFlyersModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <h4 class="modal-title" id="myModalLabel">The High Flyers .Club</h4>
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutHighFlyers">
+
+                    <p><b>Tech Crunch Disrupt SF Hackathon 2016 Winner!</b> A web based app that brings in-flight communication to the next level. You get instant access to flight data through Panasonic Flight Data API, and an IBM Watson Chat Bot that acts as your personal tour guide to accompany you on your flight. Personalized chat room so you can talk to fellow passengers on the plane so you never have to feel lonely on a flight again.
+                    </p><br />
+                    
+                    <p><b>Technologies:</b> JavaScript, MongoDB, Angular, Panasonic Flight API, IBM Watson Conversation, Mapquest API, Express.js, Socket.io, Twitter Bootstrap, HTML5, CSS3
+                    </p><br />
+                    
+                    <p><b>Articles: </b>
+                      <a href="https://techcrunch.com/2016/09/11/thehighflyers-helps-you-join-the-mile-high-chat-club/">Tech Crunch Article</a>,
+                      <a href="http://club.blog/club-domain-com-super-showing-techcrunch-disrupt-sf-2016/">.CLUB Article</a>,
+                      <a href="http://club.blog/september-remember-not-yet">.CLUB September Issue</a>
+                    </p>
+                
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="highFlyersPic">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="game2FameModal" tabindex="-1" role="dialog" aria-labelledby="game2FameModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <img src="./css/pics_videos/game2fameLogo.png" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" id="gameLogo">
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutGame2Fame"> 
+                    
+                    <p>Web app that allows users to challenge each other in video games, setting up game rooms where players can wager bitcoins as bets. Each player has their own customizable profile and can interact through direct messages or through a chatroom.
+                    </p><br />
+
+                    <p>
+                      <b>Technologies:</b> JavaScript, MongoDB, Angular, Node.js, Express.js, Socket.io, Block.io API, Twitter Bootstrap, Passport, HTML5, CSS3
+                    </p>
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="game2FamePic">
+                    
+                    <video muted poster="" width="100%" autoplay="true" id="video" loop>
+
+                        <source src="./css/pics_videos/GameVideo.mp4" type="video/mp4"/>
+
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="corkboardModal" tabindex="-1" role="dialog" aria-labelledby="corkboardModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <h4 class="modal-title" id="myModalLabel">Corkboard</h4>
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutCorkboard"> 
+                    
+                     <p><b>2nd Place Hack for Homelessness</b> A web based app that hopes to bring families together again with their loved ones that are homeless. With no login or registration, it's as easy as writing a simple email. Using Geo-Location, we are able to find your exact location and pin your virtual notes on a map using Google Maps API. Families can go on this app and search by name or location and look through our database of the homeless that have come through our app and left a note in hopes of it reaching their family. Hopefully this can be an app to help fight the homeless problem that is increasing in our communities.
+                     </p><br />
+                     <p>
+                      <b>Technologies:</b> JavaScript, AJAX, MongoDB, Express.js, Geo-Locator, Google Maps API, Twitter Bootstrap, HTML5, CSS3
+                     </p>
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="corkboardPic">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="shakeQuakeModal" tabindex="-1" role="dialog" aria-labelledby="shakeQuakeModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <h4 class="modal-title" id="myModalLabel">Shake Quake</h4>
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutShakeQuake">
+                    
+                    <p>Web app that allows users to visually learn in depth about earthquakes. They have access to all earthquake information from 1970 to present day including magnitude, location, date, and time. Created in 24 hours for NGA Expedition Hackathon.
+                    </p><br />
+                    <p>
+                      <b>Technologies: </b>JavaScript, Angular, Node.js, Express.js, Twitter Bootstrap, HTML5, CSS3, Mapbox, NGA Earthquake API, jQuery, Geo Locator
+                    </p>
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="shakeQuakePic">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="flappyModal" tabindex="-1" role="dialog" aria-labelledby="flappyModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <h4 class="modal-title" id="myModalLabel">Flappy</h4>
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutFlappy">
+                    
+                    <p>An iOS based game inspired by the notorious Flappy Bird game. It has the same concept of traveling through the pipes to acquire a highscore without touching the ground or the pipes. Users also have the ability to switch the colors of the bird between Red, Green, and Blue. This is my first game developed in iOS.
+                    </p><br />
+                    <p>
+                      <b>Technologies:</b> Xcode 8, SpriteKit, iOS 10, Swift 3
+                    </p><br />
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="flappyPic">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="expozureModal" tabindex="-1" role="dialog" aria-labelledby="expozureModal" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <h4 class="modal-title" id="myModalLabel">Expozure</h4>
+
+            </div>
+
+            <div class="modal-body col-xs-12 col-sm-12 col-md-12 col-lg-12" id="modalBody">
+
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="aboutExpozure">
+                    
+                    <p>An iOS based social media app based on my version of Instagram. I used a Firebase back-end that stores Users and Posts. I got more familiar with Cocoapods, bringing in FacebookSDK for Facebook Auth and Firebase. Used Keychain to keep authorized Users logged in when they close the app. Users have the ability to upload pictures from their device along with captions, then other users can then "like" posts by touching the heart icon on the post. Have a chat feature in the works right now that will be applied within the coming weeks.
+                    </p><br />
+                    <p>
+                      <b>Technologies:</b> Xcode 9(Beta), iOS 11(Beta), Swift 4(Beta), Firebase, Cocoapods, Facebook Auth, Keychain
+                    </p><br />
+
+                </div>
+                
+                <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6" id="expozurePic">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ****************************** End of Modals ******************************************** -->
+
+
+<script type="text/javascript">
+    
 $(document).ready(function() {
+
 
   $(window).keydown(function(event){
 
@@ -443,12 +789,12 @@ $(document).ready(function() {
   });
 
   $("form").submit(function(){
-
-    setTimeout(function(){
+        
+      setTimeout(function(){
 
       alert("Thank You! Your message has been sent!");
 
-    }, 500);
+    }, 500);   
 
   });
 
@@ -504,6 +850,18 @@ $(document).ready(function() {
 
   });
 
+});
+
+    
+$('.project').click(function(){
+  var buttonId = $(this).attr('id');
+  $('#modal-container').removeAttr('class').addClass(buttonId);
+  $('body').addClass('modal-active');
+})
+
+$('#modal-container').click(function(){
+  $(this).addClass('out');
+  $('body').removeClass('modal-active');
 });
 
 
