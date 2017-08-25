@@ -29,7 +29,7 @@
 }
 
 .bgimg-3 {
-    background-image: url('./pics_videos/collage.png');
+    background-image: url('./pics_videos/Sunday.jpg');
     min-height: 100%;
 }
 
@@ -96,6 +96,9 @@
     display: none;
 }
 
+#profile{
+    margin-top: 50px;
+}
 
 
 
@@ -568,7 +571,7 @@ label{
   padding: 2px;
 }
 #loading{
-  transition: all 1100ms ease;
+  transition: all 700ms ease;
   height: 20px;
   width: calc(100% - 10px);
   border-radius: 8px;
@@ -576,7 +579,7 @@ label{
   position: absolute;
   margin: 3px;
   display: inline-block;
-  animation: load 11s ease infinite;
+  animation: load 7s ease infinite;
 }
 #load{
   font-family: Arial;
